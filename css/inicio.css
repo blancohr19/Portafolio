@@ -63,13 +63,8 @@ main section#portafolio nav a#proyecto-04 { background: url('../img/portafolio-0
 main section#portafolio nav a#proyecto-05 { background: url('../img/portafolio-05.jpg') no-repeat top center; background-size: cover; }
 main section#portafolio nav a#proyecto-06 { background: url('../img/portafolio-06.jpg') no-repeat top center; background-size: cover; }
 
-
-
 main section#portafolio div#portaf { width: 100%; height: 1px; position: absolute; top: -70px; left: 0; z-index: 100; margin: 0; float: none; }
 
-
-
-           
 
 /* Section ESTUDIO */
 main section#estudios { width: 100%; height: 780px; position: relative; margin: 0 auto; float: none; background: #fff; }
@@ -154,7 +149,7 @@ Mobile: 340px hasta 499px
     main section#portafolio article p { padding: 0 10% 86px 10%; }
 
 
-    main section#portafolio nav { height: 1000px; }
+    main section#portafolio nav { height: 750px; }
     main section#portafolio nav a { width: 50%; height: 250px; }
 
     main section#estudios {height: auto;}
