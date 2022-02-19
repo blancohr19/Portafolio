@@ -132,7 +132,7 @@ Mobile: 340px hasta 499px
 
 /* Tablets */
 @media only screen and (max-width: 1199px) {
-    main section#video { height: 90vh; background: url('../video/video-web.webm') no-repeat top center; background-size: cover; }
+    main section#video { height: 90vh; background: url('../video/video-gif.gif') no-repeat top center; background-size: cover; }
     main section#video video { height: 90vh; }
     main section#video video source { height: 90vh; }
     main section#video article { height: 90vh; }
@@ -160,7 +160,6 @@ Mobile: 340px hasta 499px
 
 @media only screen and (max-width: 879px) {
     main section#video { height: 70vh; }
-    main section#video video { display: none; }
     main section#video article { height: 70vh; }
     main section#video article h1 { font-size: 2.5em; padding: 22vh 0 28px 0; }
     main section#video article p { font-size: 1.15em; padding: 0 10%; }
