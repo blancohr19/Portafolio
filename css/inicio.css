@@ -45,7 +45,7 @@ main section#presentacion div#present { width: 100%; height: 1px; position: abso
 main section#portafolio { width: 100%; height: auto; position: relative; margin: 0 auto; float: none; background: #fff; }
 
 main section#portafolio article { width: 100%; height: auto; position: relative; margin: 0 auto; float: none; }
-main section#portafolio article h2 { font-weight: 900; font-size: 1.5em; line-height: 1.2em; padding: 86px 25% 24px 25%; text-align: center; text-transform: uppercase; letter-spacing: 0.3em; }
+main section#portafolio article h2 { font-weight: 900; font-size: 1.5em; line-height: 1.2em; padding: 86px 25% 24px 25%; text-align: center; text-transform: uppercase; letter-spacing: 0.3em; color: #ff5758;}
 main section#portafolio article hr { width: 40%; height: 1px; position: relative; margin: 0 auto 24px; float: none; border: none; background: #999; opacity: 0.5; }
 main section#portafolio article p { font-weight: 500; font-size: 1.1em; line-height: 1.7em; padding: 0 25% 86px 25%; text-align: center; }
 
@@ -79,7 +79,7 @@ main section#estudios  figure { width: 448px; height: 585px; position: relative;
 main section#estudios  figure img { width: 100%; height: auto; display: block; }
 
 
-main section#estudios article  h2 { font-size: 1.9em; line-height: 1.5em; color: #6AC6CC; font-weight: 900; letter-spacing: 0.3em; padding: 8px 0px 18px 0px; text-transform: uppercase; }
+main section#estudios article  h2 { font-size: 1.9em; line-height: 1.5em; color: #ff5758; font-weight: 900; letter-spacing: 0.3em; padding: 8px 0px 18px 0px; text-transform: uppercase; }
 main section#estudios article  h4 { font-size: 1.2em; line-height: 1.7em; color: #070404; font-weight: 800; letter-spacing: 0.1em; padding: 0px 0px 16px 0px; text-align: justify;}
 main section#estudios article  p { font-size: 1.1em; line-height: 1.7em; color: #a3a3a3; font-weight: 700; letter-spacing: 0.1em; padding: 0px 5px 10px 0px; text-align: justify;}
 
@@ -90,7 +90,8 @@ main section#estudios div#estud { width: 100%; height: 1px; position: absolute; 
 
 /* Section HABILIDADES */
 main section#habilidades { width: 100%; height: auto; position: relative; margin: 0 auto; float: none; background: #f1f1f1; padding: 0 0 86px 0; }
-main section#habilidades h2 { font-weight: 900; font-size: 1.5em; line-height: 1.2em; padding: 86px 25% 48px 25%; text-align: center; text-transform: uppercase; letter-spacing: 0.3em; }
+main section#habilidades h2 { font-weight: 900; font-size: 1.5em; line-height: 1.2em; padding: 86px 25% 48px 25%; text-align: center; text-transform: uppercase; letter-spacing: 0.3em; color: #ff5758;}
+main section#habilidades  hr { width: 30%; height: 1px; position: relative; margin: 0 auto 44px; float: none; border: none; background: #999; opacity: 0.5; }
 main section#habilidades article { width: 1100px; height: auto; position: relative; margin: 0 auto; float: none; }
 main section#habilidades article div.box-habil { width: 254px; height: 236px; position: relative; margin: 9px; float: none; display: inline-block; background: #fff; }
 main section#habilidades article div.box-habil i { width: 70px; height: auto; font-size: 3em; text-align: center; display: block; margin: 48px auto 16px; padding: 11px 0; float: none; border: solid 1px #999; border-radius: 50%; }
@@ -107,8 +108,6 @@ main section#habilidades article div.box-habil:nth-child(8) i { color: #f90; }
 
 main section#habilidades div#habilid { width: 100%; height: 1px; position: absolute; top: -70px; left: 0; z-index: 100; margin: 0; float: none; }
                         
-
-
 
 
 /* Section CONTACTO */
@@ -160,6 +159,8 @@ Mobile: 340px hasta 499px
 
     main section#estudios {height: auto;}
     main section#estudios article { padding: 96px 96px 72px 0; }
+
+    main section#habilidades article {width: 100%; height: auto; margin: 0 auto; float: none;}
 }
 
 @media only screen and (max-width: 879px) {
@@ -169,6 +170,31 @@ Mobile: 340px hasta 499px
     main section#video article h1 { font-size: 2.5em; padding: 22vh 0 28px 0; }
     main section#video article p { font-size: 1.15em; padding: 0 10%; }
 }
+
+
+@media(min-width:768px){
+    .campos{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    
+    .campo{
+        flex: 0 0 calc(33.3% - 1rem);
+        text-align: center;
+    }
+    }
+    
+    .campo{
+        padding: .5rem 0;
+        text-align: center;
+    }
+    
+    .campo label{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
 
 /* Mobile */
 @media only screen and (max-width: 499px) {
