@@ -132,7 +132,7 @@ Mobile: 340px hasta 499px
 
 /* Tablets */
 @media only screen and (max-width: 1199px) {
-    main section#video { height: 90vh; background: url('../video/video-gif.gif') no-repeat top center; background-size: cover; }
+    main section#video { height: 90vh; background: url('../video/video-web.webm') no-repeat top center; background-size: cover; }
     main section#video video { height: 90vh; }
     main section#video video source { height: 90vh; }
     main section#video article { height: 90vh; }
