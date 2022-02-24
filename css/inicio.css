@@ -47,7 +47,7 @@ main section#portafolio { width: 100%; height: auto; position: relative; margin:
 main section#portafolio article { width: 100%; height: auto; position: relative; margin: 0 auto; float: none; }
 main section#portafolio article h2 { font-weight: 900; font-size: 1.5em; line-height: 1.2em; padding: 86px 25% 24px 25%; text-align: center; text-transform: uppercase; letter-spacing: 0.3em; color: #ff5758;}
 main section#portafolio article hr { width: 40%; height: 1px; position: relative; margin: 0 auto 24px; float: none; border: none; background: #999; opacity: 0.5; }
-main section#portafolio article p { font-weight: 500; font-size: 1.1em; line-height: 1.7em; padding: 0 25% 86px 25%; text-align: center; }
+main section#portafolio article p { font-weight: 700; font-size: 1.2em; line-height: 1.7em; padding: 0 25% 86px 25%; text-align: center; }
 
 main section#portafolio nav { width: 100%; height: 680px; position: relative; margin: 0 auto; float: none; background: #000; }
 main section#portafolio nav a { width: 33.33%; height: 340px; position: relative; margin: 0; float: left; display: block; text-decoration: none; transition: all 0.3s ease-out; }
@@ -79,6 +79,10 @@ main section#estudios article div#info-estudios h4 { font-weight: 600; font-size
 main section#estudios article div#info-estudios p { font-weight: 500; font-size: 1.1em; line-height: 1.7em; padding: 0 0 24px 0; text-align: left; }
 main section#estudios article div#info-estudios p:last-child { padding: 0 0 86px 0; }
 
+main section#estudios article div#info-estudios ul { list-style-type: square; }
+main section#estudios article div#info-estudios li{color: #ff5758; line-height: 2;}
+main section#estudios article div#info-estudios li span{color: #000; font-weight: 500; font-size: 1.3em; text-align: justify;}
+
 main section#estudios div#estud { width: 100%; height: 1px; position: absolute; top: -70px; left: 0; z-index: 100; margin: 0; float: none; }
 
 
@@ -87,7 +91,7 @@ main section#estudios div#estud { width: 100%; height: 1px; position: absolute; 
 /* Section HABILIDADES */
 main section#habilidades { width: 100%; height: auto; position: relative; margin: 0 auto; float: none; background: #f1f1f1; padding: 0 0 86px 0; }
 main section#habilidades h2 { font-weight: 900; font-size: 1.5em; line-height: 1.2em; padding: 86px 25% 48px 25%; text-align: center; text-transform: uppercase; letter-spacing: 0.3em; color: #ff5758;}
-main section#habilidades  hr { width: 30%; height: 1px; position: relative; margin: 0 auto 44px; float: none; border: none; background: #999; opacity: 0.5; }
+main section#habilidades  hr { width: 50%; height: 1px; position: relative; margin: 0 auto 44px; float: none; border: none; background: #999; opacity: 0.5; }
 main section#habilidades article { width: 1100px; height: auto; position: relative; margin: 0 auto; float: none; }
 main section#habilidades article div.box-habil { width: 254px; height: 236px; position: relative; margin: 9px; float: none; display: inline-block; background: #fff; }
 
@@ -173,21 +177,20 @@ Mobile: 340px hasta 499px
 }
 
 
-@media(min-width:768px){
+@media only screen and (min-width:768px){
     .campos{
-        display: flex;
-        justify-content: space-between;
-        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(3, 2fr);
     }
     
     .campo{
         flex: 0 0 calc(33.3% - 1rem);
         text-align: center;
     }
-    }
+    
     
     .campo{
-        padding: .5rem 0;
+        padding: .8rem 0;
         text-align: center;
     }
     
@@ -196,6 +199,31 @@ Mobile: 340px hasta 499px
         text-align: center;
     }
 
+}
+
+@media only screen and (max-width:768px){
+    .campos{
+        display: grid;
+        grid-template-columns: repeat(2, 3fr);
+    }
+    
+    .campo{
+        flex: 0 0 calc(33.3% - 1rem);
+        text-align: center;
+    }
+    
+    
+    .campo{
+        padding: .8rem 0;
+        text-align: center;
+    }
+    
+    .campo label{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+}
 
 /* Mobile */
 @media only screen and (max-width: 499px) {
