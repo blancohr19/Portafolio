@@ -68,15 +68,16 @@ main section#portafolio div#portaf { width: 100%; height: 1px; position: absolut
 
 /* Section ESTUDIO */
 main section#estudios { width: 100%; height: 780px; position: relative; margin: 0 auto; float: none; background: #fff; }
-main section#estudios article {  width: 1100; height: auto; margin: 0 auto; float: none; padding: 166px 96px 72px 0;}
+main section#estudios article { width: 1100px; height: 585px; position: relative; margin: 0 auto; float: none; top: 96px; }
 
-main section#estudios  figure { width: 448px; height: 585px; position: relative; margin: 96px 80px 0 10%; float: left; }
-main section#estudios  figure img { width: 100%; height: auto; display: block; }
+main section#estudios article figure { width: 448px; height: 585px; position: relative; margin: 0 80px 0 0; float: left; }
+main section#estudios article figure img { width: 100%; height: auto; display: block;}
 
-
-main section#estudios article  h2 { font-size: 1.9em; line-height: 1.5em; color: #ff5758; font-weight: 900; letter-spacing: 0.3em; padding: 8px 0px 18px 0px; text-transform: uppercase; }
-main section#estudios article  h4 { font-size: 1.2em; line-height: 1.7em; color: #070404; font-weight: 800; letter-spacing: 0.1em; padding: 0px 0px 16px 0px; text-align: justify;}
-main section#estudios article  p { font-size: 1.1em; line-height: 1.7em; color: #a3a3a3; font-weight: 700; letter-spacing: 0.1em; padding: 0px 5px 10px 0px; text-align: justify;}
+main section#estudios article div#info-estudios { width: 570px; height: 585px; position: relative; margin: 0; float: left; }
+main section#estudios article div#info-estudios h2 { font-weight: 800; font-size: 2.5em; line-height: 1em; padding: 86px 0 24px 0; text-align: left; letter-spacing: 0.05em; color: #ff5758; }
+main section#estudios article div#info-estudios h4 { font-weight: 600; font-size: 1.5em; line-height: 1.15em; padding: 0 0 24px 0; text-align: left; letter-spacing: 0.05em; color: #555; }
+main section#estudios article div#info-estudios p { font-weight: 500; font-size: 1.1em; line-height: 1.7em; padding: 0 0 24px 0; text-align: left; }
+main section#estudios article div#info-estudios p:last-child { padding: 0 0 86px 0; }
 
 main section#estudios div#estud { width: 100%; height: 1px; position: absolute; top: -70px; left: 0; z-index: 100; margin: 0; float: none; }
 
@@ -89,26 +90,15 @@ main section#habilidades h2 { font-weight: 900; font-size: 1.5em; line-height: 1
 main section#habilidades  hr { width: 30%; height: 1px; position: relative; margin: 0 auto 44px; float: none; border: none; background: #999; opacity: 0.5; }
 main section#habilidades article { width: 1100px; height: auto; position: relative; margin: 0 auto; float: none; }
 main section#habilidades article div.box-habil { width: 254px; height: 236px; position: relative; margin: 9px; float: none; display: inline-block; background: #fff; }
-main section#habilidades article div.box-habil i { width: 70px; height: auto; font-size: 3em; text-align: center; display: block; margin: 48px auto 16px; padding: 11px 0; float: none; border: solid 1px #999; border-radius: 50%; }
-main section#habilidades article div.box-habil h5 {  }
-
-main section#habilidades article div.box-habil:nth-child(1) i { color: #09f; }
-main section#habilidades article div.box-habil:nth-child(2) i { color: #09f; }
-main section#habilidades article div.box-habil:nth-child(3) i { color: #09f; }
-main section#habilidades article div.box-habil:nth-child(4) i { color: #09f; }
-main section#habilidades article div.box-habil:nth-child(5) i { color: #e100ff; }
-main section#habilidades article div.box-habil:nth-child(6) i { color: #e5ff00; }
-main section#habilidades article div.box-habil:nth-child(7) i { color: #073350; }
-main section#habilidades article div.box-habil:nth-child(8) i { color: #f90; }
 
 main section#habilidades div#habilid { width: 100%; height: 1px; position: absolute; top: -70px; left: 0; z-index: 100; margin: 0; float: none; }
                         
 
 
 /* Section CONTACTO */
-main section#contacto { width: 100%; height: 500px; position: relative; margin: 0 auto; float: none; background: #fff; }
-main section#contacto article { width: 30%; height: 308px; position: relative; margin: 0; float: left; background: #fff; padding: 96px 0 96px 10%; }
-main section#contacto article div.box-contacto { border: 2px solid #e2e2e2; height: 70px; padding: 8px;  background-color: #f5f5f5; display: flex; }
+main section#contacto { width: 100%; height: 550px; position: relative; margin: 0 0 50px 0; float: none; background: #fff; }
+main section#contacto article { width: 70%; height: auto; position: relative; margin: 0 auto; float: none; }
+/* main section#contacto article div.box-contacto { border: 2px solid #e2e2e2; height: 70px; padding: 8px;  background-color: #f5f5f5; display: flex; }
 main section#contacto article div.box-contacto p { padding: 12px;  color: #717981; font-weight: bold;}
 main section#contacto article div.box-contacto a {  padding: 10px; }
 main section#contacto article div.box-contacto a:hover {  }
@@ -117,7 +107,15 @@ main section#contacto nav{  padding: 16px;}
 main section#contacto nav a {border-radius: 50%; background-color: #fff;  color: #717981; font-size: 1em; padding: 50px 0; transition: all 0.3s ease-out;}
 main section#portafolio nav a:hover { opacity: 0.5; transition: all 0.3s ease-out; }
 
-main section#contacto figure { width: 60%; height: 500px; position: relative; margin: 0; float: left; background: url('../img/contacto.jpg') no-repeat top center; background-size: cover; }
+main section#contacto figure { width: 50%; height: 500px; position: relative; margin: 0; float: left; background: url('../img/contacto.jpg') no-repeat top center; background-size: cover; } */
+main section#contacto h2 { font-weight: 900; font-size: 1.5em; line-height: 1.2em; padding: 46px 25% 20px 25%; text-align: center; text-transform: uppercase; letter-spacing: 0.3em; color:#ff5758;}
+main section#contacto  hr { width: 50%; height: 1px; position: relative; margin: 0 auto 24px; float: none; border: none; background: #999; opacity: 0.5; }
+
+main section#contacto article div.box-contacto { width: 47%; height: 200px; position: relative; margin: 9px; float: none; display: inline-block; background: #eee;}
+main section#contacto article div.box-contacto i { width: 70px; height: auto; font-size: 4em; text-align: center; display: block; margin: 54px auto 16px; padding: 0; float: none; border-radius: 50%; color:#ff5758;}
+main section#contacto article div.box-contacto p { font-weight: 700; font-size: 0.7em; line-height: 1.2em; padding: 0 44px; text-align: center; text-transform: uppercase; letter-spacing: 0.03em; }
+main section#contacto article div.box-contacto > a { width: 65%; height: auto; display: block;  margin: 0 auto; text-align: center; font-weight: 600; font-size: 0.8em; line-height: 1em; padding: 5px 0 45px 0px; text-transform: uppercase; letter-spacing: 0.05em; color: #333; text-decoration: none; transition: all 0.3s ease-in; }
+main section#contacto article div.box-contacto > a:hover { color: #000; transition: all 0.3s ease-in; }
 
 main section#contacto div#conta { width: 100%; height: 1px; position: absolute; top: -70px; left: 0; z-index: 100; margin: 0; float: none; }
 
@@ -152,10 +150,19 @@ Mobile: 340px hasta 499px
     main section#portafolio nav { height: 750px; }
     main section#portafolio nav a { width: 50%; height: 250px; }
 
-    main section#estudios {height: auto;}
-    main section#estudios article { padding: 96px 96px 72px 0; }
+    main section#estudios { height: auto; }
+    main section#estudios article { width: 80%; height: auto; top: 48px; }
+    main section#estudios article figure { width: 100%; height: auto; margin: 0 auto 24px; float: none; }
+    main section#estudios article div#info-estudios { width: 100%; height: auto; margin: 0 auto 48px; float: none; }
+    main section#estudios article div#info-estudios h2 { padding: 8px 0 24px 0; }
+    main section#estudios article div#info-estudios p:last-child { padding: 0 0 48px 0; }
 
     main section#habilidades article {width: 100%; height: auto; margin: 0 auto; float: none;}
+}
+
+@media only screen and (max-width:952px){
+    main section#contacto {height: auto;}
+    main section#contacto article div.box-contacto {width: 100%;}
 }
 
 @media only screen and (max-width: 879px) {

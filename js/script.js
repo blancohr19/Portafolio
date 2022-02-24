@@ -47,14 +47,14 @@
                 $('header').addClass('blanco');
 
                 $('header').css('height','70px');
-                $('header a').css('width','144px');
-                $('header a').css('height','48px');
+                $('header a').css('width','130px');
+                $('header a').css('height','44px');
             } else {
                 $('header').removeClass('blanco');
                 $('header').addClass('transparente');
 
                 $('header').css('height','100px');
-                $('header a').css('width','227px');
+                $('header a').css('width','159px');
                 $('header a').css('height','76px');
             }
         });
