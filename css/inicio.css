@@ -56,11 +56,11 @@ main section#portafolio nav a strong { width: 90%; height: auto; display: block;
 main section#portafolio nav a:hover { opacity: 0.5; transition: all 0.3s ease-out; }
 main section#portafolio nav a:hover strong { bottom: 3%; left: 3%; transition: all 0.3s ease-out; }
 
-main section#portafolio nav a#proyecto-01 { background: url('../img/portafolio-01.png') no-repeat top center; background-size: cover; }
-main section#portafolio nav a#proyecto-02 { background: url('../img/portafolio-02.png') no-repeat top center; background-size: cover; }
+main section#portafolio nav a#proyecto-01 { background: url('../img/portafolio-01.webp') no-repeat top center; background-size: cover; }
+main section#portafolio nav a#proyecto-02 { background: url('../img/portafolio-02.webp') no-repeat top center; background-size: cover; }
 main section#portafolio nav a#proyecto-03 { background: url('../img/portafolio-03.webp') no-repeat top center; background-size: cover; }
 main section#portafolio nav a#proyecto-04 { background: url('../img/portafolio-04.webp') no-repeat top center; background-size: cover; }
-main section#portafolio nav a#proyecto-05 { background: url('../img/portafolio-05.png') no-repeat top center; background-size: cover; }
+main section#portafolio nav a#proyecto-05 { background: url('../img/portafolio-05.webp') no-repeat top center; background-size: cover; }
 main section#portafolio nav a#proyecto-06 { background: url('../img/portafolio-06.webp') no-repeat top center; background-size: cover; }
 
 main section#portafolio div#portaf { width: 100%; height: 1px; position: absolute; top: -70px; left: 0; z-index: 100; margin: 0; float: none; }
