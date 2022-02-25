@@ -57,7 +57,7 @@ main section#portafolio nav a:hover { opacity: 0.5; transition: all 0.3s ease-ou
 main section#portafolio nav a:hover strong { bottom: 3%; left: 3%; transition: all 0.3s ease-out; }
 
 main section#portafolio nav a#proyecto-01 { background: url('../img/portafolio-01.png') no-repeat top center; background-size: cover; }
-main section#portafolio nav a#proyecto-02 { background: url('../img/portafolio-02.webp') no-repeat top center; background-size: cover; }
+main section#portafolio nav a#proyecto-02 { background: url('../img/portafolio-02.png') no-repeat top center; background-size: cover; }
 main section#portafolio nav a#proyecto-03 { background: url('../img/portafolio-03.webp') no-repeat top center; background-size: cover; }
 main section#portafolio nav a#proyecto-04 { background: url('../img/portafolio-04.webp') no-repeat top center; background-size: cover; }
 main section#portafolio nav a#proyecto-05 { background: url('../img/portafolio-05.png') no-repeat top center; background-size: cover; }
