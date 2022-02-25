@@ -29,7 +29,7 @@ main section#presentacion figure a { width: 100%; height: 400px; position: relat
 
 main section#presentacion article { width: 60%; height: 400px; position: relative; margin: 0; float: left; }
 main section#presentacion article h2 { font-size: 1.5em; line-height: 1.5em; color: #fff; font-weight: 800; letter-spacing: 0.3em; padding: 72px 64px 16px 64px; }
-main section#presentacion article p { font-size: 1em; line-height: 1.7em; color: #fff; font-weight: 300; letter-spacing: 0.09em; padding: 16px 64px 16px 64px; }
+main section#presentacion article p { font-size: 1em; line-height: 1.7em; color: #fff; font-weight: 300; letter-spacing: 0.09em; padding: 16px 64px 16px 64px; text-align: justify; }
 main section#presentacion article a { width: 208px; height: 38px; display: block; margin: 16px 0 0 64px; float: none; position: relative; background: #fff; border-radius: 25px; text-decoration: none; transition: all 0.3s ease-out; }
 main section#presentacion article a i { width: 38px; height: auto; display: block; float: left; margin: 0 0 0 8px; color: #222; font-size: 1.5em; line-height: 1em; text-align: center; padding: 7px 0; transition: all 0.3s ease-out; }
 main section#presentacion article a span { width: 143px; height: auto; display: block; float: left; margin: 0 8px 0 6px; font-size: 0.9em; line-height: 1em; color: #333; font-weight: 600; letter-spacing: 0.02em; padding: 12px 0; transition: all 0.3s ease-out; }
@@ -56,11 +56,11 @@ main section#portafolio nav a strong { width: 90%; height: auto; display: block;
 main section#portafolio nav a:hover { opacity: 0.5; transition: all 0.3s ease-out; }
 main section#portafolio nav a:hover strong { bottom: 3%; left: 3%; transition: all 0.3s ease-out; }
 
-main section#portafolio nav a#proyecto-01 { background: url('../img/portafolio-01.webp') no-repeat top center; background-size: cover; }
+main section#portafolio nav a#proyecto-01 { background: url('../img/portafolio-01.png') no-repeat top center; background-size: cover; }
 main section#portafolio nav a#proyecto-02 { background: url('../img/portafolio-02.webp') no-repeat top center; background-size: cover; }
 main section#portafolio nav a#proyecto-03 { background: url('../img/portafolio-03.webp') no-repeat top center; background-size: cover; }
 main section#portafolio nav a#proyecto-04 { background: url('../img/portafolio-04.webp') no-repeat top center; background-size: cover; }
-main section#portafolio nav a#proyecto-05 { background: url('../img/portafolio-05.webp') no-repeat top center; background-size: cover; }
+main section#portafolio nav a#proyecto-05 { background: url('../img/portafolio-05.png') no-repeat top center; background-size: cover; }
 main section#portafolio nav a#proyecto-06 { background: url('../img/portafolio-06.webp') no-repeat top center; background-size: cover; }
 
 main section#portafolio div#portaf { width: 100%; height: 1px; position: absolute; top: -70px; left: 0; z-index: 100; margin: 0; float: none; }
