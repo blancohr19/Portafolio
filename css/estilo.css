@@ -7,6 +7,15 @@ h1, h2, h3, h4, h5, h6, p { margin: 0; }
 
 body { margin: 0 !important; }
 
+body::-webkit-scrollbar {
+	width: 10px;
+	background: none;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: #ff5758;
+	border-radius: 10px;
+}
 
 
 /* Menú Móvil */
